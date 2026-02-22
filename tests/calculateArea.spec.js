@@ -20,9 +20,9 @@ describe("Iteration 3", () => {
         });
 
         it("should return undefined in case any of the arguments is not provided", () => {
-            expect(add(1)).toEqual(undefined);
-            expect(add()).toEqual(undefined);
-            expect(add(undefined, 1)).toEqual(undefined);
+            expect(calculateArea(1)).toEqual(undefined);
+            expect(calculateArea()).toEqual(undefined);
+            expect(calculateArea(undefined, 1)).toEqual(undefined);
         });
 
         // extra test
