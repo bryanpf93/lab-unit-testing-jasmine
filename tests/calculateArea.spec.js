@@ -28,11 +28,11 @@ describe("Iteration 3", () => {
         // extra test
 
         it("should return undefined if any of the arguments is not a number", () => {
-            expect(divide("1", 2)).toEqual(undefined);
-            expect(divide(1, "2")).toEqual(undefined);
-            expect(divide("1", "2")).toEqual(undefined);
-            expect(divide(true, 2)).toEqual(undefined);
-            expect(divide(1, false)).toEqual(undefined);
+            expect(calculateArea("1", 2)).toEqual(undefined);
+            expect(calculateArea(1, "2")).toEqual(undefined);
+            expect(calculateArea("1", "2")).toEqual(undefined);
+            expect(calculateArea(true, 2)).toEqual(undefined);
+            expect(calculateArea(1, false)).toEqual(undefined);
         });
     })
 })
